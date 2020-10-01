@@ -2,16 +2,19 @@ import React from 'react';
 import {Example} from './Example'
 import  {Example2} from './Example2'
 import {Alpha} from './Alpha'
-function Welcome(props){
-  return <h1>Hello, {props.name}</h1>;
-}
+import Garage from './Garage'
+import {Car} from './Car'
+
+
+
 function App() {
   return (
     <div>
     <Example/>
     <Example2/>
     <Alpha/>
-    <Welcome name="alpha"/>
+    <Garage name="alpha developpeur django" />
+    <Car/>
     </div>
   )
 }
