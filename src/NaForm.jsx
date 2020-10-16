@@ -16,7 +16,7 @@ export class NaForm extends React.Component{
         e.preventDefault();
     }
     render() {
-        return(
+        return (
             <div>
             <form onSubmit={this.handleSubmit}>
                 <label>

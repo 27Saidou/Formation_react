@@ -28,7 +28,7 @@ export class Car extends React.Component {
 
 class Header extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             favoritecolor: "red"
         };
