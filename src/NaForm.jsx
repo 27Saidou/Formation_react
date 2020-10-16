@@ -1,4 +1,4 @@
-import React,{ Component}from 'react';
+import React,{ Component,useState}from 'react';
 export class NaForm extends React.Component{
     constructor(props){
         super(props);
@@ -28,4 +28,11 @@ export class NaForm extends React.Component{
         </div>
         )
     }
+}
+export function Omar(){
+    let[count,setCount]=useState(0)
+    return<div>
+        <p>{count}</p>
+        <button onClick={()=>setCount(count+1)}></button>
+    </div>
 }
