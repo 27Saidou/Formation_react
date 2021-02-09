@@ -5,7 +5,7 @@ import {Alpha} from './Alpha'
 import Garage from './Garage'
 import {Car} from './Car'
 import {NaForm} from './NaForm'
-
+import List from './List'
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
     <Garage name="alpha developpeur django" />
     <Car/>
     <NaForm/>
+    <List/>
     </div>
   )
 }
